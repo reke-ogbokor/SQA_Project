@@ -174,30 +174,21 @@ public class TestApplication {
 			
 			
 			
-			
 	}
-		
 		
 		
 		
 	}
 
-//    At least 8 chars
-//
-//    Contains at least one digit
-//
-//    Contains at least one lower alpha char and one upper alpha char
-//
-//    Contains at least one char within a set of special chars (@#!%$^ etc.)
-//
-//    Does not contain space, tab, etc.
 
 	
 	public void Password() {
 		
 		if (state == 4) {
 			
-			System.out.println("Enter your Password:");
+			System.out.println("Enter your Password: ");
+			
+			System.out.println("(Atleast 8 characters, one digit, one lowercase, one uppercase, one special character, and no spaces or tabs)");
 			
 			password = sp.nextLine(); //Retrieves user input
 			
@@ -252,6 +243,8 @@ public class TestApplication {
 			
 			if (finalA.equals(""))
 			System.exit(0);
+			
+			
 			
 	}
 		

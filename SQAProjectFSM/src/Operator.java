@@ -12,7 +12,7 @@ public class Operator {
 	app.Location();
 	app.Password();
 	app.Final();
-	
+	app.home();
 	
 	
 	

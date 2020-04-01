@@ -70,8 +70,7 @@ public class WhiteBoxTest {
 
 			assertTrue(password.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$!%^&+=])(?=\\S+$).{8,}$"));
 
-			state = 5;
-		}
+					}
 
 	}
 

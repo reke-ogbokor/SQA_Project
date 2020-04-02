@@ -1,5 +1,0 @@
-Class Diagram
-Our approach to desigining this diagram was to create attributes for all of the input data that a user must enter to create their account. There will also be some standard methods for that class which compare if the passwod and repeat password fields match, if the username is in use or not, if there is an account already associated with the phone number, and finally to post the user to the database
-
-Object Diagram
-The object diagram was simply done by filling in the class diagram's attributes with test values according to the data types outlined in the class diagram. As for the names of the objects, sine this is a simple diagram, we just used the first letter of the class name and added a number to symbolize that multiple objects could be made and this uniquely identifies them.

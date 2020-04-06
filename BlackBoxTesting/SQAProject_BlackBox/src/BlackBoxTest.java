@@ -6,9 +6,11 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 public class BlackBoxTest {
 	@Test
+	@Category(Test01.class)
 
 	public void TestSetup() {
 		Scanner su = new Scanner(System.in);
